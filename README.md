@@ -1,2 +1,3 @@
 # Shelfie
-BCIT Midterm
+BCIT Final Project
+
