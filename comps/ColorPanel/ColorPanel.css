@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .colorPanels {
   display: flex;
   flex-direction: column;
@@ -13,6 +15,7 @@
 .colorPanels p {
   position: absolute;
   top: 10px;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   color: #322D2D;
 }
