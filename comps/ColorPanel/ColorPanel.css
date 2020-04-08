@@ -1,0 +1,44 @@
+.colorPanels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 10px 0px;
+  position: relative;
+  transition: 0.1s ease-in-out;
+  border: transparent;
+}
+
+.colorPanels p {
+  position: absolute;
+  top: 10px;
+  font-size: 24px;
+  color: #322D2D;
+}
+
+.colorPanels img {
+  position: relative;
+  top: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.colorPanels:focus {
+  animation-name: panelClick;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes panelClick {
+  0% {
+    bottom: 0px;
+    box-shadow: 0px 10px 0px rgba(50,50,50, 0.3);
+  }
+
+  100% {
+    bottom: -10px;
+    box-shadow: inset 0px 1px 10px #666;
+  }
+}
