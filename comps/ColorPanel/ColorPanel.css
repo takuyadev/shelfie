@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
   border-radius: 20px;
   box-shadow: 0px 10px 0px;
   position: relative;
@@ -11,9 +10,18 @@
   border: transparent;
 }
 
+.colorPanels p {
+  position: absolute;
+  top: 10px;
+  font-size: 24px;
+  color: #322D2D;
+}
+
 .colorPanels img {
-  width: 30%;
-  height: 30%;
+  position: relative;
+  top: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 .colorPanels:focus {
@@ -24,12 +32,13 @@
 }
 
 @keyframes panelClick {
-  from {
+  0% {
     bottom: 0px;
-    box-shadow: 0px 10px 0px;
+    box-shadow: 0px 10px 0px rgba(50,50,50, 0.3);
   }
-  to {
+
+  100% {
     bottom: -10px;
-    box-shadow: inset 0px 4px 10px;
+    box-shadow: inset 0px 1px 10px #666;
   }
 }
