@@ -1,5 +1,35 @@
-.colorPanels{
-    width: 200px;
-    height: 200px;
-    background-color: teal;
+.colorPanels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 20px;
+  box-shadow: 0px 10px 0px;
+  position: relative;
+  transition: 0.1s ease-in-out;
+  border: transparent;
+}
+
+.colorPanels img {
+  width: 30%;
+  height: 30%;
+}
+
+.colorPanels:focus {
+  animation-name: panelClick;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes panelClick {
+  from {
+    bottom: 0px;
+    box-shadow: 0px 10px 0px;
+  }
+  to {
+    bottom: -10px;
+    box-shadow: inset 0px 4px 10px;
+  }
 }
