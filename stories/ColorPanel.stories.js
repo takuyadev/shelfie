@@ -2,7 +2,7 @@ import React from "react";
 import ColorPanel from "../comps/ColorPanel";
 import Wave from "../comps/wave";
 export default {
-  title: "Components",
+  title: "Takuya - Color Panels, Wave",
 };
 
 export const FourPanelLayout = () => (

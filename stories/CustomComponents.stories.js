@@ -4,7 +4,7 @@ import Text from '../comps/Text';
 import RestartButton from '../comps/RestartButton';
 
 export default {
-    title: "My components",
+    title: "Emma - Restart Button, Back Button",
 }; 
 
 export const MyText = () => <Text />; 
