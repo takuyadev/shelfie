@@ -1,0 +1,35 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #322D2D;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    color: #4E5248;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+h2 {
+    font-size: 50pt;
+}
+
+h3 {
+    font-size: 45pt;
+}
+
+h4 {
+    font-size: 38pt;
+}
+
+h5 {
+    font-size: 32pt;
+}
+
+h6 {
+    font-size: 27pt;
+}
+

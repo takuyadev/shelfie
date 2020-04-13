@@ -1,0 +1,17 @@
+/* .backButton {
+    border-radius: 50%;
+    
+    text-align: center;
+    display: inline-flex;
+    padding: 55px;
+    font-size: 20px;
+    width: 20px;
+} */
+
+#backArrow {
+    width: 6%; 
+    border-radius: 50%;
+    background: #90E68E;
+    padding: 10px;
+    display: inline-flex;
+}
