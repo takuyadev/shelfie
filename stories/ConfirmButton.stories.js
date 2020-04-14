@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import ConfirmButton from '../Simon/ConfirmButton';
-import Textbox from '../Simon/Textbox';
+import ConfirmButton from '../comps/ConfirmButton';
+import Textbox from '../comps/Textbox';
 
 
 export default {
-    title:"Simon Confirm button, Textbox",
+    title:"Simon - Confirm button, Textbox",
     component : ConfirmButton,
     component: Textbox
 }
