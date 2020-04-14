@@ -4,7 +4,9 @@
   "description": "BCIT Final Project",
   "main": "index.js",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "next": "^9.3.4",
+    "next-images": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -19,7 +21,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
