@@ -5,7 +5,7 @@ import "./index.css";
 
 const Index = () => (
   <div id="mainapp">
-    Index
+    <Link href="/Fridge"></Link>Index
   </div>
 );
 

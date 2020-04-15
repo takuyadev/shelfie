@@ -10,4 +10,10 @@
     border-radius: 30px;
     padding: 12px 24px; 
     display: inline-flex;
+    transition: .1s ease-in-out;
+    cursor:pointer;
+}
+
+.restartButton:hover{
+    background-color: #CC4747;
 }

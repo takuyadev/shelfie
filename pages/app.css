@@ -1,0 +1,75 @@
+/* Global Color*/
+:root {
+  --main-blue: #7dd0ff;
+  --main-green: #ceff7d;
+  --main-orange: #ffa15c;
+  --main-yellow: #fff27d;
+  --main-black: #322d2d;
+}
+
+/*Fonts + Font Sizes*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-black);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  color: var(--main-black);
+}
+
+h1 {
+  font-size: 38pt;
+  font-weight: 900;
+  line-height: 0.5;
+}
+
+/*Wrappers*/
+
+.app {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 0px;
+  flex-direction: column;
+}
+
+/* Color Panel */
+
+.two-panel,
+.four-panel {
+  display: grid;
+  grid-gap: 20px;
+  width: 500px;
+  height: 500px;
+  margin: 30px;
+}
+
+.two-panel {
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.four-panel {
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nav-button-layout {
+  display: flex;
+  width: 100%;
+  max-width: 560px;
+  justify-content: space-between;
+}

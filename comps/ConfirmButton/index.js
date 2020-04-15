@@ -1,12 +1,17 @@
-import React from 'react';
-import './confirm.css';
+import React from "react";
+import "./confirm.css";
+import Link from "next/link";
 
-
-
-const ConfirmButton = () => <div className="confirmButton_box">
-    <div className="confirmButton_box_inner">
-        Confirm
+const ConfirmButton = ({ link }) => (
+  <Link href={link}>
+    <div className="confirmButton_box">
+      <div className="confirmButton_box_inner">Confirm</div>
     </div>
-</div>
+  </Link>
+);
+
+ConfirmButton.defaultProps = {
+  link: "../../pages/Seasons",
+};
 
 export default ConfirmButton;
