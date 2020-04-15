@@ -1,9 +1,11 @@
 import React from 'react';
 import './restartbutton.css';
 
-const RestartButton = () => <div class="restartButton">
+const RestartButton = () => (
+<div className="restartButton">
     Restart 
 </div>
+);
 
 RestartButton.defaultProps = {
     background: '#FF5959',
