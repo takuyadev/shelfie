@@ -5,35 +5,33 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 
-const BananaIcon = require("../../img/Banana.png");
-const OrangeIcon = require("../../img/Orange.png");
+const FridgeIcon = require("../../img/fridge.png");
+const NoFridgeIcon = require("../../img/nofridge.png");
 
 const Fridge = () => (
   <div className="app">
     <div className="nav-button-layout">
-      <BackButton />
+      <BackButton link="../Pick"/>
       <RestartButton />
     </div>
     <main>
-      <h1>Pick your fruit.</h1>
+      <h1>Fridge or no Fridge?</h1>
       <p>Click on either of the panels!</p>
       <div className="two-panel">
         <ColorPanel
-          backgroundColor="#FFF27D"
-          boxShadow="0px 10px 0px #BCAB19"
-          text="Banana"
-          img={BananaIcon}
+         backgroundColor="#7DD0FF"
+         boxShadow="0px 10px 0px #3A799D"
+          text="Fridge"
+          img={FridgeIcon}
         />
         <ColorPanel
-          backgroundColor="#CEFF7D"
-          boxShadow="0px 10px 0px #78AE1E"
-          text="Orange"
-          img={OrangeIcon}
+          backgroundColor="#FFA15C"
+          boxShadow="0px 10px 0px #CA5E5E"
+          text="No Fridge"
+          img={NoFridgeIcon}
         />
       </div>
-      <Link href="../Solution">
-        <ConfirmButton />
-      </Link>
+        <ConfirmButton link="../Solution"/>
     </main>
     <Wave />
   </div>

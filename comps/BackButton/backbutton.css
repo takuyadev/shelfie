@@ -16,4 +16,10 @@
     justify-content: center;
     align-items: center;
     display: inline-flex;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+#backArrow:hover{
+    background: #70B26F;
 }

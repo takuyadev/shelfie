@@ -1,11 +1,12 @@
 import React from 'react';
+import Link from 'next/link';
 import './restartbutton.css';
 
-const RestartButton = () => (
+const RestartButton = () => <Link href="../../Homepage">
 <div className="restartButton">
     Restart 
 </div>
-);
+</Link>
 
 RestartButton.defaultProps = {
     background: '#FF5959',

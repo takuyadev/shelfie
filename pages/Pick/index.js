@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Wave from "../../comps/wave";
 import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
@@ -11,7 +10,7 @@ const OrangeIcon = require("../../img/Orange.png");
 const Pick = () => (
   <div className="app">
     <div className="nav-button-layout">
-      <BackButton />
+      <BackButton link="../FruitorVegetable"/>
       <RestartButton />
     </div>
     <main>
@@ -31,9 +30,7 @@ const Pick = () => (
           img={OrangeIcon}
         />
       </div>
-      <Link href="../Fridge">
-        <ConfirmButton />
-      </Link>
+        <ConfirmButton link="../Fridge"/>
     </main>
     <Wave />
   </div>
