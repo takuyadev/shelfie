@@ -12,6 +12,9 @@
     display: inline-flex;
     transition: .1s ease-in-out;
     cursor:pointer;
+    position: absolute;
+    left: 300px;
+    top: 19px;
 }
 
 .restartButton:hover{
