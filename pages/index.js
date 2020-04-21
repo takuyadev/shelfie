@@ -4,7 +4,7 @@ import "./index.css";
 
 const Index = () => (
   <div id="mainapp">
-    <Link href="/Fridge"></Link>Index
+    <Link href="/Fridge"><a>Index</a></Link>
   </div>
 );
 
