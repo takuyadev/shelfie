@@ -4,8 +4,8 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 
-const BananaIcon = require("../../img/Banana.png");
-const OrangeIcon = require("../../img/Orange.png");
+const BananaIcon = require("../../img/banana.png");
+const OrangeIcon = require("../../img/orange.png");
 
 const Pick = () => (
   <div className="app">
