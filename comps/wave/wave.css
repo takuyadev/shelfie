@@ -4,6 +4,7 @@
     width: 100%;
     left:0px;
     max-height: 300px;    
+    z-index: 0;
 }
 
 @media screen and (max-width: 300px){

@@ -1,29 +1,18 @@
-.entirePage {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    width: 414px;
-    margin-left: -500px; 
-    text-align: center;
-}
-
-p {
-    margin: 100px 35px 0px; 
-}
-
 h4 {
-    margin-top: 20px;
-    margin-bottom: 35px;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
 h6 {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
-.soultionBox {
-    display: inline-flex;
-    background-color: #EDEEEC;
-    border-radius: 28px;
-    margin: 0px 0px -10px; 
-    padding: 25px 50px 200px;
+.solutionBox {
+  display: inline-flex;
+  background-color: #edeeec;
+  border-radius: 28px;
+  margin: 0px 0px -10px;
+  padding: 25px 50px 200px;
+  width: 400px;
+  height: auto;
 }

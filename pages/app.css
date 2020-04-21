@@ -30,6 +30,20 @@ h1 {
   line-height: 0.5;
 }
 
+h2 {
+}
+
+.subheading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+}
+
+.titleText {
+  text-align: center;
+}
+
 /*Wrappers*/
 
 .app {
@@ -42,8 +56,9 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5% 0px;
+  margin: 2% 0px;
   flex-direction: column;
+  z-index: 1;
 }
 
 /* Color Panel */
@@ -71,5 +86,10 @@ h1 {
   display: flex;
   width: 100%;
   max-width: 560px;
+  margin-top: 30px;
   justify-content: space-between;
+}
+
+.mascot {
+  margin: 60px;
 }
