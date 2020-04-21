@@ -1,4 +1,6 @@
 .restartButton {
+    display:flex;
+    justify-content: center;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -12,9 +14,9 @@
     display: inline-flex;
     transition: .1s ease-in-out;
     cursor:pointer;
-    position: absolute;
     left: 300px;
     top: 19px;
+    height: 30px
 }
 
 .restartButton:hover{
