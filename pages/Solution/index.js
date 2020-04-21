@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
+import Wave from "../../comps/wave";
 import RestartButton from "../../comps/RestartButton";
 import Text from "../../comps/Text";
-import Wave from "../../comps/wave";
 import "./solution.css";
 import LogoImage from "./LogoDesign.svg";
 
