@@ -1,6 +1,3 @@
-import Wave from "../../comps/wave";
-import Link from "next/link";
-import Router from "next/router";
 import ConfirmButton from "../../comps/ConfirmButton";
 import "./homepage.css";
 

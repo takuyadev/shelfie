@@ -1,5 +1,4 @@
 import Wave from "../../comps/wave";
-import Link from "next/link";
 import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";

@@ -1,6 +1,4 @@
 import Wave from "../../comps/wave";
-import Link from "next/link";
-import Router from "next/router";
 import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
