@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 import RestartButton from '../../comps/RestartButton';
-
+import './homepage.css';
 
 
 const Homepage = () => <div className="homepage">
@@ -11,7 +11,7 @@ const Homepage = () => <div className="homepage">
    </div>
 <div className="bodytext">
     Find our how long your produce will last, and how to reduce your food waste!</div>
-    <RestartButton></RestartButton>
+    <RestartButton text={homepage}></RestartButton>
 </div>
 
 
