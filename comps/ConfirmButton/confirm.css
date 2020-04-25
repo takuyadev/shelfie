@@ -17,9 +17,10 @@ color:white;
 transition: 0.06s ease-in-out;
 }
 
-.confirmButton_box:active {
-background-color:#8e9287;
+.confirmButton_box:hover {
+background-color:#E47525;
 }
+
 .confirmButton_box_inner{
 text-align: center;
 justify-content: center;

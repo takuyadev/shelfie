@@ -4,40 +4,36 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 
-const VegetableIcon = require("../../img/vegetable.png");
-const FruitIcon = require("../../img/fruit.png");
+const BananaIcon = require("../../img/banana.png");
+const OrangeIcon = require("../../img/orange.png");
 
-const FruitorVegetable = () => (
+const Pick = () => (
   <div className="app">
     <div className="nav-button-layout">
-      <BackButton link="../Seasons"/>
+      <BackButton link="../FruitorVegetable"/>
       <RestartButton />
     </div>
     <main>
-      <h1>Fruit or Vegetable?</h1>
+      <h1>Pick your Vegetable.</h1>
       <p>Click on either of the panels!</p>
       <div className="two-panel">
         <ColorPanel
-          class="Vegi"
           backgroundColor="#FFF27D"
           boxShadow="0px 10px 0px #BCAB19"
-          text="Vegetable"
-          img={VegetableIcon}
+          text="Vegi 1"
+          img={}
         />
         <ColorPanel
-          class="Fruit"
           backgroundColor="#CEFF7D"
           boxShadow="0px 10px 0px #78AE1E"
-          text="Fruit"
-          img={FruitIcon}
+          text="Vegi 2"
+          img={}
         />
       </div>
-        <ConfirmButton onClick="Pick Page" link="../Pick"/>
+        <ConfirmButton link="../Fridge"/>
     </main>
     <Wave />
   </div>
 );
 
-
-
-export default FruitorVegetable;
+export default Pick;
