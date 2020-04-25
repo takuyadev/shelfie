@@ -8,13 +8,13 @@ import LogoImage from "./LogoDesign.svg";
 
 const Solution = () => (
   <div class="app">
-    <div className="nav-button-layout">
-      <p>Based on your selections, you have about:</p>
+    <div class="navBar">
       <RestartButton></RestartButton>
     </div>
     <main>
       <h4>6 Days Left!</h4>
-      <img src={LogoImage} />
+      <p>By all estimates, this food will last about 6 days under your selected  conditions </p>
+      <img src={LogoImage} class="BananaMan"/>
       <br></br>
       <h6>
         How Long Does it Last <br></br>Under Best Conditions?

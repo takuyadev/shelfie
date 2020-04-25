@@ -1,12 +1,12 @@
 import ConfirmButton from "../../comps/ConfirmButton";
 import "./homepage.css";
 
-const LogoIcon = require("../../img/logo.png");
-const MascotIcon = require("../../img/mascot.png");
+const NameIcon = require("../../img/name.svg");
+const LogoIcon = require("../../img/logo.svg");
 
 const Homepage = () => (
   <div className="app">
-    <img src={LogoIcon} />
+    <img src={NameIcon} className="nameIcon" />
     <p className="subheading">
       Extend shelf life. <br></br>Save the world and your wallet!
     </p>
@@ -14,7 +14,7 @@ const Homepage = () => (
       Find our how long your produce <br></br> will last, and how to reduce{" "}
       <br></br>your food waste!
     </p>
-    <img className="mascot" src={MascotIcon} />
+    <img className="logo" src={LogoIcon} />
     <ConfirmButton text="Get Started!" link="../Seasons" />
   </div>
 );
