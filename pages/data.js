@@ -16,4 +16,9 @@ export function ChangeData(d) {
   sessionStorage.setItem("data", JSON.stringify(data));
 }
 
-export default data;
+
+export const Hard = () =>{
+  
+};
+
+export default Hard;
