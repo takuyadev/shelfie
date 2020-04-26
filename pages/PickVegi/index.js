@@ -21,13 +21,11 @@ const Pick = () => (
           backgroundColor="#FFF27D"
           boxShadow="0px 10px 0px #BCAB19"
           text="Vegi 1"
-          img={}
         />
         <ColorPanel
           backgroundColor="#CEFF7D"
           boxShadow="0px 10px 0px #78AE1E"
           text="Vegi 2"
-          img={}
         />
       </div>
         <ConfirmButton link="../Fridge"/>
