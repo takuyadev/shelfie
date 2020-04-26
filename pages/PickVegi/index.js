@@ -3,6 +3,7 @@ import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
+import { data, ChangeData } from "../data";
 
 const BananaIcon = require("../../img/banana.png");
 const OrangeIcon = require("../../img/orange.png");
@@ -32,7 +33,7 @@ const Pick = () => (
       </div>
         <ConfirmButton link="../Fridge"/>
     </main>
-    <Wave />
+    <Wave backgroundColor={data.Wave}/>
   </div>
 );
 
