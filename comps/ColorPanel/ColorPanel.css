@@ -11,6 +11,7 @@
   transition: 0.1s ease-in-out;
   border: transparent;
   cursor: pointer;
+  outline: none;
 }
 
 .colorPanels::after{
