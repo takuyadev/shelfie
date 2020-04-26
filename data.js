@@ -15,10 +15,3 @@ export function ChangeData(d) {
   data = d;
   sessionStorage.setItem("data", JSON.stringify(data));
 }
-
-
-export const Hard = () =>{
-  
-};
-
-export default Hard;

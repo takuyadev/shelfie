@@ -5,7 +5,7 @@ import RestartButton from "../../comps/RestartButton";
 import Text from "../../comps/Text";
 import "./solution.css";
 import LogoImage from "./LogoDesign.svg";
-import { data, ChangeData } from "../data";
+import { data, ChangeData } from "../../data";
 
 const Solution = () => (
   <div class="app">
