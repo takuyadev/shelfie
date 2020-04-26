@@ -4,7 +4,7 @@ import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
-import { data, ChangeData } from "../data";
+import { data, ChangeData } from "../../data";
 
 const WinterIcon = require("../../img/winter.png");
 const SpringIcon = require("../../img/spring.png");
