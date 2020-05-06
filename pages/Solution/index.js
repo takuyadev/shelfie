@@ -33,7 +33,8 @@ const Solution = () => {
         />
         <Textbox header="How to Preserve This Food Longer?" />
         <Textbox header="Misconceptions About Expiration Dates" />
-        <Textbox header="Food Waste" />
+        <Textbox header="How to reduce Food Waste" />
+      
       </main>
       <Wave backgroundColor={data.Wave} />
     </div>
