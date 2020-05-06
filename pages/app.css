@@ -8,7 +8,9 @@
 }
 
 /*Fonts + Font Sizes*/
-
+body{
+  margin: 0px;
+}
 h1,
 h2,
 h3,
@@ -17,6 +19,8 @@ h5,
 h6 {
   color: var(--main-black);
   font-family: "Poppins", sans-serif;
+  max-width: 600px;
+  text-align: center;
 }
 
 p {
@@ -98,11 +102,6 @@ body{
   margin: 60px;
 }
 
-h1, h2, h3, h4, h5, h6 , p{
-  max-width: 500px;
-  text-align: center;
-}
-
 @media screen and (max-width: 600px){
   h4{
     font-size: 24pt;
@@ -111,6 +110,12 @@ h1, h2, h3, h4, h5, h6 , p{
     margin: 5px;
     font-size: 24pt;
   }
+  .subheading{
+    font-size: 1.2rem;
+  }
+  .titleText{
+    font-size: 1rem;
+  }
   .navBar{
     margin: 0px;
   }
@@ -118,6 +123,6 @@ h1, h2, h3, h4, h5, h6 , p{
     height:auto;
   }
   .two-panel{
-    height: 300px;
+    height: 320px;
   }
 }
