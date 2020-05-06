@@ -19,7 +19,9 @@ h5,
 h6 {
   color: var(--main-black);
   font-family: "Poppins", sans-serif;
-  max-width: 600px;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
   text-align: center;
 }
 
@@ -33,9 +35,6 @@ h1 {
   font-weight: 900;
   line-height: 1.2;
   margin: 20px;
-}
-
-h2 {
 }
 
 .subheading {
