@@ -19,7 +19,7 @@ ColorPanel.defaultProps = {
   backgroundColor: "#EEE",
   img: defaultImg,
   boxShadow: "0px 10px 0px",
-  onClick:"#000"
+  onClick:"#000",
 };
 
 export default ColorPanel;

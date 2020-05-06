@@ -12,6 +12,8 @@
   border: transparent;
   cursor: pointer;
   outline: none;
+  height: 100%;
+  min-width: 235px;
 }
 
 .colorPanels::after{
@@ -73,5 +75,20 @@
 
   100% {
     opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  .colorPanels img {
+    width: 60px;
+    height: 60px;
+  }
+  .colorPanels{
+    min-height: 150px;;
+    min-width: auto;
+  }
+  .colorPanels p{
+    font-size: 20px;
   }
 }

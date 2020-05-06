@@ -15,7 +15,9 @@ const Seasons = () => {
   const [waveColor, setWaveColor] = useState("#EEE");
 
   return (
-    <div className="app">
+    <div
+      className="app"
+    >
       <div className="nav-button-layout">
         <BackButton link="../Homepage" />
         <RestartButton />
@@ -28,8 +30,12 @@ const Seasons = () => {
             onClick={() => {
               setWaveColor("#7dd0ff");
               ChangeData({
-                Seasons: "Winter",
-                Wave: "#7dd0ff"
+                Seasons: 0,
+                Fridge: "",
+                Pick: "",
+                FruitorVegetable: "",
+                Wave: "#7dd0ff",
+                Option: "",
               });
               console.log(data.Seasons);
             }}
@@ -42,8 +48,12 @@ const Seasons = () => {
             onClick={() => {
               setWaveColor("#CEFF7D");
               ChangeData({
-                Seasons: "Spring",
-                Wave: "#CEFF7D"
+                Seasons: 1,
+                Fridge: "",
+                Pick: "",
+                FruitorVegetable: "",
+                Wave: "#CEFF7D",
+                Option: "",
               });
               console.log(data.Seasons);
             }}
@@ -56,8 +66,11 @@ const Seasons = () => {
             onClick={() => {
               setWaveColor("#FFF27D");
               ChangeData({
-                Seasons: "Summer",
-                Wave: "#FFF27D"
+                Seasons: 2,
+                Fridge: "",
+                Pick: "",
+                FruitorVegetable: "",
+                Wave: "#FFF27D",
               });
               console.log(data.Seasons);
             }}
@@ -70,8 +83,11 @@ const Seasons = () => {
             onClick={() => {
               setWaveColor("#FFA15C");
               ChangeData({
-                Seasons: "Fall",
-                Wave: "#FFA15C"
+                Seasons: 3,
+                Fridge: "",
+                Pick: "",
+                FruitorVegetable: "",
+                Wave: "#FFA15C",
               });
               console.log(data.Seasons, data.Wave);
             }}
