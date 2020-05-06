@@ -1,29 +1,46 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Wave from "../../comps/wave";
 import RestartButton from "../../comps/RestartButton";
+import ConfirmButton from "../../comps/ConfirmButton";
 import Text from "../../comps/Text";
 import "./solution.css";
 import LogoImage from "./LogoDesign.svg";
 import { data, ChangeData, SolutionText } from "../../data";
 import Textbox from "../../comps/Textbox";
-console.log( SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[data.FruitorVegetable].Option[data.option])
-console.log(data)
+console.log(
+  SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[
+    data.FruitorVegetable
+  ].Option[data.option]
+);
+console.log(data);
 
 const Solution = () => {
   const [bestConditionText, setBestConditionText] = useState(
-    SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[data.FruitorVegetable].Option[data.Option].Text
+    SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[
+      data.FruitorVegetable
+    ].Option[data.Option].Text
   );
   return (
     <div className="app">
-      <div className="navBar">
+      <div className="navBar" id="anchorTop">
         <RestartButton></RestartButton>
       </div>
       <main>
-        <h4>{SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[data.FruitorVegetable].Option[data.Option].Days} Days Left!</h4>
+        <h4>
+          {
+            SolutionText.Fridge[data.Fridge].Seasons[data.Seasons]
+              .FruitorVegetable[data.FruitorVegetable].Option[data.Option].Days
+          }{" "}
+          Days Left!
+        </h4>
         <p>
-          By all estimates, this food will last about {SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[data.FruitorVegetable].Option[data.Option].Days} days under your selected
-          conditions{" "}
+          By all estimates, this food will last about{" "}
+          {
+            SolutionText.Fridge[data.Fridge].Seasons[data.Seasons]
+              .FruitorVegetable[data.FruitorVegetable].Option[data.Option].Days
+          }{" "}
+          days under your selected conditions{" "}
         </p>
         <img src={LogoImage} className="BananaMan" />
         <br></br>
@@ -34,7 +51,7 @@ const Solution = () => {
         <Textbox header="How to Preserve This Food Longer?" />
         <Textbox header="Misconceptions About Expiration Dates" />
         <Textbox header="How to reduce Food Waste" />
-      
+        <ConfirmButton link="#anchorTop" text="Go back to the top!"/>
       </main>
       <Wave backgroundColor={data.Wave} />
     </div>
