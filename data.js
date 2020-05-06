@@ -1,11 +1,11 @@
 //Where the data is stored during game
 export let data = {
   Seasons: "1",
-  Fridge: "",
-  Pick: "",
-  FruitorVegetable: "",
+  Fridge: "1",
+  Pick: "1",
+  FruitorVegetable: "1",
   Wave: "#EEE",
-  Option: "",
+  Option: "1",
 };
 
 //All data for Fruit and Vegetables; names, color and icon.
@@ -179,7 +179,7 @@ export const SolutionText = {
             {
               Option: [
                 {
-                  Text: "Corn",
+                  Text: "Corn no fridge",
                   Days: "9",
                 },
                 {
@@ -295,7 +295,7 @@ export const SolutionText = {
             {
               Option: [
                 {
-                  Text: "Corn",
+                  Text: "Corn Fridgea",
                   Days: "25",
                 },
                 {
