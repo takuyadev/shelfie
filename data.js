@@ -116,6 +116,7 @@ export let VegetableInfo = [
 export const SolutionText = {
   Fridge: [
     {
+      Mascot:require('./img/oldbanana.svg'),
       Seasons: [
         {
           FruitorVegetable: [
@@ -282,6 +283,7 @@ export const SolutionText = {
       ],
     },
     {
+      Mascot:require('./img/mascot.png'),
       Seasons: [
         {
           FruitorVegetable: [
