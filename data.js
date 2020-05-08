@@ -37,14 +37,13 @@ export let FruitInfo = [
   {
     option1Icon: require("./img/f5.png"),
     option1Name: "Cherry",
-    option1Color: "#FFA15C",
-    option1BoxShadow: "0px 10px 0px #CA5E5E",
+    option1Color: "#FFF27D",
+    option1BoxShadow: "0px 10px 0px #BCAB19",
     option1Number: 0,
     option2Icon: require("./img/f6.png"),
     option2Name: "Strawberry",
-    option1Color: "#FFA15C",
-    option1BoxShadow: "0px 10px 0px #CA5E5E",
-    Color: "#FFF27D",
+    option2Color: "#FFA15C",
+    option2BoxShadow: "0px 10px 0px #CA5E5E",
     option2Number: 1,
   },
   {
