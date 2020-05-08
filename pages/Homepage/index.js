@@ -1,23 +1,22 @@
-import React from 'react';
-import Link from "next/link";
-import RestartButton from '../../comps/RestartButton';
-import './homepage.css';
+import ConfirmButton from "../../comps/ConfirmButton";
+import "./homepage.css";
 
+const NameIcon = require("../../img/name.svg");
+const LogoIcon = require("../../img/logo.svg");
 
-const Homepage = () => <div className="homepage">
-   <div className="header">Shelfie</div>
-   <div className="bodytext" >
-       Extend shelf life. Save the world and your wallet
-   </div>
-<div className="bodytext">
-    Find our how long your produce will last, and how to reduce your food waste!</div>
-    <RestartButton text={homepage}></RestartButton>
-</div>
+const Homepage = () => (
+  <div className="app">
+    <img src={NameIcon} className="nameIcon" />
+    <p className="subheading">
+      Extend shelf life. <br></br>Save the world and your wallet!
+    </p>
+    <p className="titleText">
+      Find our how long your produce <br></br> will last, and how to reduce{" "}
+      <br></br>your food waste!
+    </p>
+    <img className="logo" src={LogoIcon} />
+    <ConfirmButton text="Get Started!" link="../Seasons" />
+  </div>
+);
 
-
-
-Text.defaultProps = {
-    color: '#322D2D'
-}
-
-export default Homepage; 
+export default Homepage;

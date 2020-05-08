@@ -8,7 +8,9 @@
 }
 
 /*Fonts + Font Sizes*/
-
+body{
+  margin: 0px;
+}
 h1,
 h2,
 h3,
@@ -17,6 +19,10 @@ h5,
 h6 {
   color: var(--main-black);
   font-family: "Poppins", sans-serif;
+  max-width: 500px;
+  min-width: 200px;
+  width: 100%;
+  text-align: center;
 }
 
 p {
@@ -27,7 +33,20 @@ p {
 h1 {
   font-size: 38pt;
   font-weight: 900;
-  line-height: 0.5;
+  line-height: 1.2;
+  margin: 20px;
+}
+
+
+.subheading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 0px;
+}
+
+.titleText {
+  text-align: center;
 }
 
 /*Wrappers*/
@@ -42,19 +61,23 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5% 0px;
   flex-direction: column;
+  z-index: 1;
 }
 
+body{
+  width: 100vw;
+}
 /* Color Panel */
 
 .two-panel,
 .four-panel {
   display: grid;
   grid-gap: 20px;
-  width: 500px;
-  height: 500px;
+  width: 90%;
+  height: 550px;
   margin: 30px;
+
 }
 
 .two-panel {
@@ -69,7 +92,37 @@ h1 {
 
 .nav-button-layout {
   display: flex;
-  width: 100%;
+  width: 90%;
   max-width: 560px;
+  margin: 20px 0px 10px 0px;
   justify-content: space-between;
+}
+
+.mascot {
+  margin: 60px;
+}
+
+@media screen and (max-width: 600px){
+  h4{
+    font-size: 24pt;
+  }
+  h1{
+    margin: 5px;
+    font-size: 24pt;
+  }
+  .subheading{
+    font-size: 1.2rem;
+  }
+  .titleText{
+    font-size: 1rem;
+  }
+  .navBar{
+    margin: 0px;
+  }
+  .four-panel{
+    height:auto;
+  }
+  .two-panel{
+    height: 320px;
+  }
 }

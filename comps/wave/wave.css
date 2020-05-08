@@ -4,11 +4,12 @@
     width: 100%;
     left:0px;
     max-height: 300px;    
+    z-index: 0;
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 400px){
     .wave{
-        display:none;
-        opacity: 0;
+        bottom:30px;
+        transform:scaleY(3);
     }
 }

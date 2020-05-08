@@ -1,14 +1,23 @@
 {
   "name": "shelfie",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.16.1"
+  },
   "description": "BCIT Final Project",
   "main": "index.js",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "install": "^0.13.0",
     "next": "^9.3.5",
     "next-images": "^1.4.0",
+    "npm": "^6.14.5",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -24,7 +33,7 @@
     "build-storybook": "build-storybook",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "repository": {
     "type": "git",
