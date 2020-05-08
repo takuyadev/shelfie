@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Link from "next/link";
 import Wave from "../../comps/wave";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
-import Text from "../../comps/Text";
 import "./solution.css";
-import LogoImage from "./LogoDesign.svg";
 import { data, ChangeData, SolutionText } from "../../data";
 import Textbox from "../../comps/Textbox";
 
@@ -33,6 +30,9 @@ const Solution = () => {
       data.FruitorVegetable
     ].Option[data.Option].Days
   );
+  const [BananaLogo, setBananaLogo] = useState(
+    SolutionText.Fridge[data.Fridge].Mascot
+  );
   
   return (
     <div className="app">
@@ -40,12 +40,12 @@ const Solution = () => {
         <RestartButton></RestartButton>
       </div>
       <main>
-        <h4>{DaysText} Left!</h4>
+        <h4>{DaysText} left!</h4>
         <p>
           By all estimates, this food will last about {DaysText} under your
-          selected conditions
+          selected conditions.
         </p>
-        <img src={LogoImage} className="BananaMan" />
+        <img src={BananaLogo} className="BananaMan" />
         <br></br>
         <Textbox
           header="How Long Does it Last Under Best Conditions?"

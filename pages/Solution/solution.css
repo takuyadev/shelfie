@@ -1,10 +1,12 @@
 h4 {
   margin: 15px 0px 0px 0px;
+  font-size: 24pt;
 }
 
 h6 {
   margin-bottom: 35px;
   text-align: center;
+  font-size: 24pt;
 }
 
 p {
@@ -27,12 +29,17 @@ p {
 
 .BananaMan {
   margin-bottom: -50px;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 20px;
+  padding: 50px 20px;
+  background-color: #EEE;
+
 }
 
 
 @media screen and (max-width: 450px){
   h4{
-    font-size: 24pt;
     margin-bottom: 0px;
   }
   h1{
