@@ -3,10 +3,10 @@ import "./Textbox.css";
 
 // this is a sample of one textbox component,
 // when comes to combination, I will put 3 more components
-const Textbox = ({ header, innerHTML}) => (
+const Textbox = ({ header, text }) => (
   <div className="Textbox_box">
     <h6>{header}</h6>
-    <div className="Textbox_box_par"></div>
+    <div className="Textbox_box_par">{text}</div>
   </div>
 );
 
