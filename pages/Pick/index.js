@@ -41,7 +41,7 @@ const Pick = () => {
       </div>
       <main>
         <h1>Pick your fruit.</h1>
-        <p>Click on either of the panels!</p>
+        <p>Choose the fruit you want!</p>
         <div className="two-panel">
           <ColorPanel
             backgroundColor={FruitInfo[data.Seasons].option1Color}

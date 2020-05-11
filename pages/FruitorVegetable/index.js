@@ -18,7 +18,7 @@ const FruitorVegetable = () => (
     </div>
     <main>
       <h1>Fruit or Vegetable?</h1>
-      <p>Click on either of the panels!</p>
+      <p>Choose whether you want to view vegetables or fruit.</p>
       <div className="two-panel">
         <ColorPanel
           class="Vegi"
