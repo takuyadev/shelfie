@@ -10,11 +10,13 @@ h6 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
+  padding: 0px 3px;
+  line-height: 19pt;
 }
 
 .solutionBox {

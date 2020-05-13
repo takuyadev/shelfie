@@ -72,7 +72,7 @@ const Solution = () => {
         text={FoodWaste}
         />
         
-        <ConfirmButton link="#anchorTop" text="Go back to the top!" />
+        <ConfirmButton link="#anchorTop" text="Go Back to the Top!" />
       </main>
       <Wave backgroundColor={data.Wave} />
     </div>
