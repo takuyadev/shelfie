@@ -57,7 +57,7 @@ const Solution = () => {
         />
         <Textbox header="Misconceptions About Expiration Dates" />
         <Textbox header="How to reduce Food Waste" />
-        <ConfirmButton link="#anchorTop" text="Go back to the top!" />
+        <ConfirmButton link="#anchorTop" text="Go back to the top!" color="FFA15C" />
       </main>
       <Wave backgroundColor={data.Wave} />
     </div>

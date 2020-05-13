@@ -13,7 +13,7 @@ const FallIcon = require("../../img/fall.png");
 
 const Seasons = () => {
   const [waveColor, setWaveColor] = useState("#EEE");
-
+  const [buttonColor, setButtonColor] = useState("#C6C6C6");
   return (
     <div
       className="app"
@@ -29,6 +29,7 @@ const Seasons = () => {
           <ColorPanel
             onClick={() => {
               setWaveColor("#CCEDFF");
+              setButtonColor("#ffa15c");
               ChangeData({
                 Seasons: 0,
                 Fridge: "",
@@ -47,6 +48,7 @@ const Seasons = () => {
           <ColorPanel
             onClick={() => {
               setWaveColor("#E2FFB3");
+              setButtonColor("#ffa15c");
               ChangeData({
                 Seasons: 1,
                 Fridge: "",
@@ -65,6 +67,7 @@ const Seasons = () => {
           <ColorPanel
             onClick={() => {
               setWaveColor("#FFF7B3");
+              setButtonColor("#ffa15c");
               ChangeData({
                 Seasons: 2,
                 Fridge: "",
@@ -82,6 +85,7 @@ const Seasons = () => {
           <ColorPanel
             onClick={() => {
               setWaveColor("#FFC499");
+              setButtonColor("#ffa15c");
               ChangeData({
                 Seasons: 3,
                 Fridge: "",
@@ -97,7 +101,7 @@ const Seasons = () => {
             img={FallIcon}
           />
         </div>
-        <ConfirmButton link="../FruitorVegetable" />
+        <ConfirmButton link="../FruitorVegetable" color={buttonColor} />
       </main>
       <Wave class="waveColor" backgroundColor={waveColor} />
     </div>
