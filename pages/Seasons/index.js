@@ -28,13 +28,13 @@ const Seasons = () => {
         <div className="four-panel">
           <ColorPanel
             onClick={() => {
-              setWaveColor("#7dd0ff");
+              setWaveColor("#CCEDFF");
               ChangeData({
                 Seasons: 0,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#7dd0ff",
+                Wave: "#CCEDFF",
                 Option: "",
               });
               console.log(data.Seasons);
@@ -46,13 +46,13 @@ const Seasons = () => {
           />
           <ColorPanel
             onClick={() => {
-              setWaveColor("#CEFF7D");
+              setWaveColor("#E2FFB3");
               ChangeData({
                 Seasons: 1,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#CEFF7D",
+                Wave: "#E2FFB3",
                 Option: "",
               });
               console.log(data.Seasons);
@@ -64,13 +64,13 @@ const Seasons = () => {
           />
           <ColorPanel
             onClick={() => {
-              setWaveColor("#FFF27D");
+              setWaveColor("#FFF7B3");
               ChangeData({
                 Seasons: 2,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#FFF27D",
+                Wave: "#FFF7B3",
               });
               console.log(data.Seasons);
             }}
@@ -81,13 +81,13 @@ const Seasons = () => {
           />
           <ColorPanel
             onClick={() => {
-              setWaveColor("#FFA15C");
+              setWaveColor("#FFC499");
               ChangeData({
                 Seasons: 3,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#FFA15C",
+                Wave: "#FFC499",
               });
               console.log(data.Seasons, data.Wave);
             }}
