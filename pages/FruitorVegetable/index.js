@@ -14,7 +14,7 @@ console.log(data.Seasons);
 
 const FruitorVegetable = () => {
   const [linkChangePage, setlinkChangePage] = useState(
-    linkChange[data.FruitorVegetable]);
+    "../Pick");
   const [buttonClass, setButtonClass] = useState("grayButton_box");
   
   return (
