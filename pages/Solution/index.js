@@ -6,14 +6,6 @@ import "./solution.css";
 import { data, ChangeData, SolutionText } from "../../data";
 import Textbox from "../../comps/Textbox";
 
-console.log(
-  SolutionText.Fridge[data.Fridge].Seasons[data.Seasons].FruitorVegetable[
-    data.FruitorVegetable
-  ].Option[data.option]
-);
-
-console.log(data);
-
 const ExpDates = <p>When we go to the supermarkets, we rely on expiration dates to make our purchasing decisions, however, expiration dates are extremely misleading. Currently, there are no laws that set exact expiration dates for food, so it is up to businesses to decide what date to put on their products. As such, many businesses purposely put on dates that are shorter than the true expiration date, so to encourage consumers to go buy more of that same product. For example, eggs can be eaten 3-5 weeks after purchase, even though the “use by” date is much earlier, and a box of mac-and-cheese can be consumed a year after its expiration date with no change in quality. 
 <br></br><br></br>In fact, many of the dates on food labeling are there for supermarket workers to know which products are older than others. 
 <br></br><br></br>As such, tonnes of edible food is thrown out every year that could have been eaten, which in turn contributes to the systemic problem that is food waste. It is recommended to use expiration dates as a guide, not an exact science, and to use your sight and smell to determine whether a food item has gone bad. When in doubt though, refer to the credible sources online to determine whether your food is still safe to eat. 

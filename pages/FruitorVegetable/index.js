@@ -5,7 +5,6 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 import { data, ChangeData, linkChange} from "../../data";
-import Link from "next/link";
 
 const VegetableIcon = require("../../img/vegetable.png");
 const FruitIcon = require("../../img/fruit.png");
