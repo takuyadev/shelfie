@@ -24,7 +24,7 @@ const Pick = () => {
   const [FruitName2, setFruitName2] = useState(
     FruitInfo[data.Seasons].option2Name
   );
-
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
   return (
     <div className="app">
       <div className="nav-button-layout">
@@ -44,11 +44,13 @@ const Pick = () => {
         <p>Choose the fruit you want!</p>
         <div className="two-panel">
           <ColorPanel
+          
             backgroundColor={FruitInfo[data.Seasons].option1Color}
             boxShadow={FruitInfo[data.Seasons].option1BoxShadow}
             text={FruitName1}
             img={FruitIcon1}
             onClick={() => {
+              setButtonClass("confirmButton_box");
               ChangeData({
                 FruitorVegetable: data.FruitorVegetable,
                 Fridge: "",
@@ -65,6 +67,7 @@ const Pick = () => {
             text={FruitName2}
             img={FruitIcon2}
             onClick={() => {
+              setButtonClass("confirmButton_box");
               ChangeData({
                 FruitorVegetable: data.FruitorVegetable,
                 Fridge: "",
@@ -76,7 +79,7 @@ const Pick = () => {
             }}
           />
         </div>
-        <ConfirmButton link="../Fridge" />
+        <ConfirmButton link="../Fridge" className={buttonClass} />
       </main>
       <Wave backgroundColor={data.Wave} />
     </div>

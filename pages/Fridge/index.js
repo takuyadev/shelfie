@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Wave from "../../comps/wave";
 import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
@@ -11,7 +12,10 @@ const NoFridgeIcon = require("../../img/nofridge.png");
 
 console.log(data);
 
-const Fridge = () => (
+const Fridge = () => {
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
+
+  return(
   <div className="app">
     <div className="nav-button-layout">
       <BackButton link="../Pick" />
@@ -27,6 +31,7 @@ const Fridge = () => (
           text="Fridge"
           img={FridgeIcon}
           onClick={() => {
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: data.FruitorVegetable,
               Pick: data.Pick,
@@ -43,6 +48,7 @@ const Fridge = () => (
           text="No Fridge"
           img={NoFridgeIcon}
           onClick={() => {
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: data.FruitorVegetable,
               Fridge: 0,
@@ -54,10 +60,11 @@ const Fridge = () => (
           }}
         />
       </div>
-      <ConfirmButton link="../Solution" />
+      <ConfirmButton link="../Solution" className={buttonClass} />
     </main>
     <Wave backgroundColor={data.Wave} />
   </div>
-);
+  )
+};
 
 export default Fridge;

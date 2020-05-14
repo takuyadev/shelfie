@@ -43,7 +43,7 @@ const Solution = () => {
   const [BananaLogo, setBananaLogo] = useState(
     SolutionText.Fridge[data.Fridge].Mascot
   );
-  
+  const [buttonClass, setButtonClass] = useState("confirmButton_box");
   return (
     <div className="app">
       <div className="navBar" id="anchorTop">
@@ -71,8 +71,8 @@ const Solution = () => {
         <Textbox header="How to Reduce Food Waste"
         text={FoodWaste}
         />
-        
-        <ConfirmButton link="#anchorTop" text="Go Back to the Top!" />
+      
+        <ConfirmButton link="#anchorTop" text="Go Back to the Top!" className={buttonClass} />
       </main>
       <Wave backgroundColor={data.Wave} />
     </div>

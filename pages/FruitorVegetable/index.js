@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Wave from "../../comps/wave";
 import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
@@ -12,10 +13,12 @@ const FruitIcon = require("../../img/fruit.png");
 
 console.log(data.Seasons);
 
+
 const FruitorVegetable = () => {
   const [linkChangePage, setlinkChangePage] = useState(
     linkChange[data.FruitorVegetable]
-  );
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
+  
   return (
   <div className="app">
     <div className="nav-button-layout">
@@ -33,6 +36,7 @@ const FruitorVegetable = () => {
           text="Vegetable"
           img={VegetableIcon}
           onClick={() => {
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: 0,
               Fridge: "",
@@ -51,6 +55,7 @@ const FruitorVegetable = () => {
           text="Fruit"
           img={FruitIcon}
           onClick={() => {
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: 1,
               Fridge: "",
@@ -63,10 +68,11 @@ const FruitorVegetable = () => {
           }}
         />
       </div>
-      <ConfirmButton link={linkChangePage} />
+      <ConfirmButton link={linkChangePage} className={buttonClass} />
     </main>
     <Wave backgroundColor={data.Wave} />
   </div>
   )};
+
 
 export default FruitorVegetable;
