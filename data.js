@@ -323,7 +323,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole, ripe pears will last about 5-12 days in the fridge",
                   Preserve:
-                    "To extend the shelf life of pears, they should be stored at room temperature until ripe, which is when they should be transferred to the fridge. Only cut them up before consumption.  Pears can also be frozen for about 10-12 months. Before being placed in freezer bags, they should be washed, and cut up into small chunks. They should then be boiled for 1-2 minutes in a solution of 2 ¾ sugar and 4 cups of water. Drain the pears and let them cool.",
+                    "To extend the shelf life of pears, they should be stored at room temperature until ripe, which is when they should be transferred to the fridge. Only cut them up before consumption. Pears can also be frozen for about 10-12 months. Before being placed in freezer bags, they should be washed, and cut up into small chunks. They should then be boiled for 1-2 minutes in a solution of 2 ¾ sugar and 4 cups of water. Drain the pears and let them cool.",
                   Days: "5-12 days",
                 },
               ],
@@ -479,3 +479,5 @@ export function ChangeData(d) {
   data = d;
   sessionStorage.setItem("data", JSON.stringify(data));
 }
+
+

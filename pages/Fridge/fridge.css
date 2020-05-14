@@ -3,4 +3,11 @@
       height: 300px;
     }
   }
-  
+
+p {
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 36pt;
+}
