@@ -1,6 +1,7 @@
 .logo {
     width: 22%;
     min-width: 150px;
+    max-width: 300px;
     padding: 30px 0px 30px; 
 }
 
@@ -12,9 +13,6 @@
   margin: 25px;
   line-height: 1rem;
 }
-
-
-
 
 @media screen and (max-width: 600px){
     .logo{
