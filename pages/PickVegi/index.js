@@ -5,6 +5,7 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 import { data, ChangeData, VegetableInfo } from "../../data";
+import "./pick.css";
 
 // const VegeIcon1 = require("../../img/banana.png");
 // const VegeIcon2 = require("../../img/orange.png");
@@ -37,7 +38,7 @@ const Pick = () => {
         <RestartButton />
       </div>
       <main>
-        <h1>Pick your Vegetable.</h1>
+        <h1 class="VegiHeader">Pick your Vegetable</h1>
         <p>Choose the vegetable you want!</p>
         <div className="two-panel">
           <ColorPanel

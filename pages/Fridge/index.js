@@ -19,7 +19,7 @@ const Fridge = () => (
     </div>
     <main>
       <h1>Fridge or No Fridge?</h1>
-      <p>Select whether your chosen produce is being stored in the fridge or not.</p>
+      <p class="fridgeText">Select whether your chosen produce is being stored in the fridge or not.</p>
       <div className="two-panel">
         <ColorPanel
           backgroundColor="#7DD0FF"

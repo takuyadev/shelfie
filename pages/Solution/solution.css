@@ -16,7 +16,13 @@ p {
   font-weight: bold;
   font-size: 18px;
   padding: 0px 3px;
+  margin: 1px 0px; 
   line-height: 19pt;
+}
+
+.resultText {
+  text-align: center;
+  padding-top: 15px;
 }
 
 .solutionBox {
@@ -43,6 +49,8 @@ p {
   background-color: rgb(255, 255, 255);
 
 }
+
+
 
 
 @media screen and (max-width: 450px){

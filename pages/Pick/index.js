@@ -40,7 +40,7 @@ const Pick = () => {
         <RestartButton />
       </div>
       <main>
-        <h1>Pick your fruit.</h1>
+        <h1>Pick your Fruit</h1>
         <p>Choose the fruit you want!</p>
         <div className="two-panel">
           <ColorPanel

@@ -25,7 +25,7 @@ const Seasons = () => {
       </div>
       <main>
         <h1>Pick your Season</h1>
-        <p class="seasonText">The types of produce that are avaiable vary depending on the time of year. Select a season to view produce that are commonly grown and sold in Canada during that season.</p>
+        <p class="seasonText">The types of produce that are avaiable vary depending on the time of year. Select a season to view produce that are commonly grown, and sold in Canada during that season.</p>
         <div className="four-panel">
           <ColorPanel
             onClick={() => {

@@ -51,7 +51,7 @@ const Solution = () => {
       </div>
       <main>
         <h4>{DaysText} left!</h4>
-        <p>
+        <p class="resultText">
           By all estimates, this food will last about {DaysText} under your
           selected conditions.
         </p>
@@ -68,7 +68,7 @@ const Solution = () => {
         <Textbox header="Misconceptions About Expiration Dates"
         text={ExpDates}
        />
-        <Textbox header="How to reduce Food Waste"
+        <Textbox header="How to Reduce Food Waste"
         text={FoodWaste}
         />
         
