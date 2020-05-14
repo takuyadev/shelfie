@@ -13,7 +13,7 @@ const FallIcon = require("../../img/fall.png");
 
 const Seasons = () => {
   const [waveColor, setWaveColor] = useState("#EEE");
-
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
   return (
     <div
       className="app"
@@ -28,13 +28,14 @@ const Seasons = () => {
         <div className="four-panel">
           <ColorPanel
             onClick={() => {
-              setWaveColor("#7dd0ff");
+              setWaveColor("#CCEDFF");
+              setButtonClass("confirmButton_box");
               ChangeData({
                 Seasons: 0,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#7dd0ff",
+                Wave: "#CCEDFF",
                 Option: "",
               });
               console.log(data.Seasons);
@@ -46,13 +47,14 @@ const Seasons = () => {
           />
           <ColorPanel
             onClick={() => {
-              setWaveColor("#CEFF7D");
+              setWaveColor("#E2FFB3");
+              setButtonClass("confirmButton_box");
               ChangeData({
                 Seasons: 1,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#CEFF7D",
+                Wave: "#E2FFB3",
                 Option: "",
               });
               console.log(data.Seasons);
@@ -64,13 +66,14 @@ const Seasons = () => {
           />
           <ColorPanel
             onClick={() => {
-              setWaveColor("#FFF27D");
+              setWaveColor("#FFF7B3");
+              setButtonClass("confirmButton_box");
               ChangeData({
                 Seasons: 2,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#FFF27D",
+                Wave: "#FFF7B3",
               });
               console.log(data.Seasons);
             }}
@@ -81,13 +84,14 @@ const Seasons = () => {
           />
           <ColorPanel
             onClick={() => {
-              setWaveColor("#FFA15C");
+              setWaveColor("#FFC499");
+              setButtonClass("confirmButton_box");
               ChangeData({
                 Seasons: 3,
                 Fridge: "",
                 Pick: "",
                 FruitorVegetable: "",
-                Wave: "#FFA15C",
+                Wave: "#FFC499",
               });
               console.log(data.Seasons, data.Wave);
             }}
@@ -97,7 +101,7 @@ const Seasons = () => {
             img={FallIcon}
           />
         </div>
-        <ConfirmButton link="../FruitorVegetable" />
+        <ConfirmButton link="../FruitorVegetable" className={buttonClass} />
       </main>
       <Wave class="waveColor" backgroundColor={waveColor} />
     </div>
