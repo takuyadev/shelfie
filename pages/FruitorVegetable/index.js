@@ -4,7 +4,9 @@ import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
-import { data, ChangeData } from "../../data";
+import { data, ChangeData, linkChange} from "../../data";
+import React, {useState} from 'react';
+import Link from "next/link";
 
 const VegetableIcon = require("../../img/vegetable.png");
 const FruitIcon = require("../../img/fruit.png");
@@ -13,8 +15,10 @@ console.log(data.Seasons);
 
 
 const FruitorVegetable = () => {
+  const [linkChangePage, setlinkChangePage] = useState(
+    linkChange[data.FruitorVegetable]
   const [buttonClass, setButtonClass] = useState("grayButton_box");
-
+  
   return (
   <div className="app">
     <div className="nav-button-layout">
@@ -23,7 +27,7 @@ const FruitorVegetable = () => {
     </div>
     <main>
       <h1>Fruit or Vegetable?</h1>
-      <p>Click on either of the panels!</p>
+      <p>Choose whether you want to view a selection of vegetables or fruit</p>
       <div className="two-panel">
         <ColorPanel
           class="Vegi"
@@ -41,6 +45,7 @@ const FruitorVegetable = () => {
               Seasons: data.Seasons,
               Option: "",
             });
+            setlinkChangePage(linkChange[data.FruitorVegetable])
           }}
         />
         <ColorPanel
@@ -59,14 +64,15 @@ const FruitorVegetable = () => {
               Seasons: data.Seasons,
               Option: "",
             });
+            setlinkChangePage(linkChange[data.FruitorVegetable])
           }}
         />
       </div>
-      <ConfirmButton link="../Pick" className={buttonClass} />
+      <ConfirmButton link={linkChangePage} className={buttonClass} />
     </main>
     <Wave backgroundColor={data.Wave} />
   </div>
-  )
-};
+  )};
+
 
 export default FruitorVegetable;

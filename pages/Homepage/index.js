@@ -12,7 +12,7 @@ const Homepage = () => {
   <div className="app">
     <img src={NameIcon} className="nameIcon" />
     <p className="subheading">
-      Extend shelf life. <br></br>Save the world and your wallet!
+      Extend shelf life. <br></br><br></br>Save the world and your wallet!
     </p>
     <p className="titleText">
       Find our how long your produce <br></br> will last, and how to reduce{" "}

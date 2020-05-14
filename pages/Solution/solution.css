@@ -10,7 +10,19 @@ h6 {
 }
 
 p {
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 3px;
+  margin: 1px 0px; 
+  line-height: 19pt;
+}
+
+.resultText {
   text-align: center;
+  padding-top: 15px;
 }
 
 .solutionBox {
@@ -28,14 +40,17 @@ p {
 }
 
 .BananaMan {
-  margin-bottom: -50px;
+  margin-bottom: -60px;
+  margin-top: 20px;
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   border-radius: 20px;
   padding: 50px 20px;
-  background-color: #EEE;
+  background-color: rgb(255, 255, 255);
 
 }
+
+
 
 
 @media screen and (max-width: 450px){

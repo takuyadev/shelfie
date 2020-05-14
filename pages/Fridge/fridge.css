@@ -3,4 +3,16 @@
       height: 300px;
     }
   }
-  
+
+p {
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36pt;
+}
+
+.fridgeText {
+  max-width: 500px;
+}

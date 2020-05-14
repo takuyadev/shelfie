@@ -19,18 +19,18 @@ color: #322D2D;
 }
 
 .Textbox_box_par{
-padding: 22px;
-background: #EDEEEC;
+padding: 25px;
+background: rgb(240, 240, 240);
 border-radius: 28px;
 font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
-line-height: 22px;
-text-align: center;
+line-height: 19pt;
+text-align: left;
 width: 80%;
 max-width: 500px;
 min-width: 200px;
 height: 100%;
-min-height: 200px;
+
 }

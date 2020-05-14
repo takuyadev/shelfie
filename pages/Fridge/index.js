@@ -5,6 +5,7 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 import { data, ChangeData } from "../../data";
+import "./fridge.css";
 
 const FridgeIcon = require("../../img/fridge.png");
 const NoFridgeIcon = require("../../img/nofridge.png");
@@ -21,8 +22,8 @@ const Fridge = () => {
       <RestartButton />
     </div>
     <main>
-      <h1>Fridge or no Fridge?</h1>
-      <p>Click on either of the panels!</p>
+      <h1>Fridge or No Fridge?</h1>
+      <p class="fridgeText">Select whether your chosen produce is being stored in the fridge or not.</p>
       <div className="two-panel">
         <ColorPanel
           backgroundColor="#7DD0FF"
