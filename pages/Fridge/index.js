@@ -12,7 +12,7 @@ const NoFridgeIcon = require("../../img/nofridge.png");
 console.log(data);
 
 const Fridge = () => {
-  const [buttonColor, setButtonColor] = useState("#C6C6C6");
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
 
   return(
   <div className="app">
@@ -30,7 +30,7 @@ const Fridge = () => {
           text="Fridge"
           img={FridgeIcon}
           onClick={() => {
-            setButtonColor("#ffa15c");
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: data.FruitorVegetable,
               Pick: data.Pick,
@@ -47,7 +47,7 @@ const Fridge = () => {
           text="No Fridge"
           img={NoFridgeIcon}
           onClick={() => {
-            setButtonColor("#ffa15c");
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: data.FruitorVegetable,
               Fridge: 0,
@@ -59,7 +59,7 @@ const Fridge = () => {
           }}
         />
       </div>
-      <ConfirmButton link="../Solution" color={buttonColor} />
+      <ConfirmButton link="../Solution" className={buttonClass} />
     </main>
     <Wave backgroundColor={data.Wave} />
   </div>

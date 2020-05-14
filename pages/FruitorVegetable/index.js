@@ -13,7 +13,7 @@ console.log(data.Seasons);
 
 
 const FruitorVegetable = () => {
-  const [buttonColor, setButtonColor] = useState("#C6C6C6");
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
 
   return (
   <div className="app">
@@ -32,7 +32,7 @@ const FruitorVegetable = () => {
           text="Vegetable"
           img={VegetableIcon}
           onClick={() => {
-            setButtonColor("#ffa15c");
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: 0,
               Fridge: "",
@@ -50,7 +50,7 @@ const FruitorVegetable = () => {
           text="Fruit"
           img={FruitIcon}
           onClick={() => {
-            setButtonColor("#ffa15c");
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: 1,
               Fridge: "",
@@ -62,7 +62,7 @@ const FruitorVegetable = () => {
           }}
         />
       </div>
-      <ConfirmButton link="../Pick" color={buttonColor} />
+      <ConfirmButton link="../Pick" className={buttonClass} />
     </main>
     <Wave backgroundColor={data.Wave} />
   </div>

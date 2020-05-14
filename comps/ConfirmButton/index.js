@@ -2,9 +2,9 @@ import React from "react";
 import "./confirm.css";
 import Link from "next/link";
 
-const ConfirmButton = ({ link, text,color }) => (
+const ConfirmButton = ({ link, text, className }) => (
   <Link href={link}>
-    <div style={{backgroundColor:color}} className="confirmButton_box">
+    <div  className={className}>
       <div className="confirmButton_box_inner">{text}</div>
     </div>
   </Link>
@@ -13,7 +13,7 @@ const ConfirmButton = ({ link, text,color }) => (
 ConfirmButton.defaultProps = {
   link: "../../pages/Seasons",
   text: "Confirm",
-  color: "gray"
+  className: "grayButton_box"
 };
 
 export default ConfirmButton;

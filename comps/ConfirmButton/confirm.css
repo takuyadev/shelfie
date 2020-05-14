@@ -21,6 +21,30 @@ transition: 0.06s ease-in-out;
 background-color:#E47525;
 }
 
+.grayButton_box{
+    background-color: #c7c7c7;
+    display: inline-flex;
+    border-radius:38px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    width: 284px;
+    height: 64px;
+    margin: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    justify-content: center;
+    color:white;
+    transition: 0.06s ease-in-out;
+    pointer-events: none;
+    }
+    
+    .grayButton_box:hover {
+    background-color:#c7c7c7;
+    }
+
 .confirmButton_box_inner{
 text-align: center;
 justify-content: center;

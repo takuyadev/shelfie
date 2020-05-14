@@ -1,13 +1,14 @@
-import React from "react";
+import React,{ useState } from "react";
 import ConfirmButton from "../../comps/ConfirmButton";
 import "./homepage.css";
 
 const NameIcon = require("../../img/name.svg");
 const LogoIcon = require("../../img/logo.svg");
 
-const Homepage = () => (
-  
-  
+const Homepage = () => {
+  const [buttonClass, setButtonClass] = useState("confirmButton_box");
+
+  return(
   <div className="app">
     <img src={NameIcon} className="nameIcon" />
     <p className="subheading">
@@ -18,9 +19,9 @@ const Homepage = () => (
       <br></br>your food waste!
     </p>
     <img className="logo" src={LogoIcon} />
-    <ConfirmButton text="Get Started!" link="../Seasons" color="FFA15C"  />
+    <ConfirmButton text="Get Started!" link="../Seasons" className={buttonClass}  />
   </div>
-  
-);
+  )
+};
 
 export default Homepage;
