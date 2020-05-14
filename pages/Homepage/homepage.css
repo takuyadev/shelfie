@@ -10,8 +10,17 @@
 }
 
 .subheading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
   margin: 25px;
   line-height: 1rem;
+  margin-bottom: 0px;
+}
+
+.titleText {
+  margin-top: 15px;
+  text-align: center;
 }
 
 @media screen and (max-width: 600px){
