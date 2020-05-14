@@ -11,7 +11,7 @@ const ConfirmButton = ({ link, text, className }) => (
 );
 
 ConfirmButton.defaultProps = {
-  link: "../../pages/Seasons",
+  link: "../Seasons",
   text: "Confirm",
   className: "grayButton_box"
 };
