@@ -8,6 +8,11 @@ export let data = {
   Option: "1",
 };
 
+export let linkChange = [
+  "../PickVegi",
+  "../Pick",
+];
+
 //All data for Fruit and Vegetables; names, color and icon.
 export let FruitInfo = [
   {
