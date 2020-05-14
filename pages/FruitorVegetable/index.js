@@ -1,21 +1,22 @@
+import React, { useState } from "react";
 import Wave from "../../comps/wave";
 import ColorPanel from "../../comps/ColorPanel";
 import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 import { data, ChangeData, linkChange} from "../../data";
-import React, {useState} from 'react';
-import Link from "next/link";
 
 const VegetableIcon = require("../../img/vegetable.png");
 const FruitIcon = require("../../img/fruit.png");
 
 console.log(data.Seasons);
 
+
 const FruitorVegetable = () => {
   const [linkChangePage, setlinkChangePage] = useState(
-    linkChange[data.FruitorVegetable]
-  );
+    "../Pick");
+  const [buttonClass, setButtonClass] = useState("grayButton_box");
+  
   return (
   <div className="app">
     <div className="nav-button-layout">
@@ -24,7 +25,7 @@ const FruitorVegetable = () => {
     </div>
     <main>
       <h1>Fruit or Vegetable?</h1>
-      <p>Choose whether you want to view a selection of vegetables or fruit</p>
+      <p className="infoText">Choose whether you want to view a selection of vegetables or fruit</p>
       <div className="two-panel">
         <ColorPanel
           class="Vegi"
@@ -33,6 +34,7 @@ const FruitorVegetable = () => {
           text="Vegetable"
           img={VegetableIcon}
           onClick={() => {
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: 0,
               Fridge: "",
@@ -51,6 +53,7 @@ const FruitorVegetable = () => {
           text="Fruit"
           img={FruitIcon}
           onClick={() => {
+            setButtonClass("confirmButton_box");
             ChangeData({
               FruitorVegetable: 1,
               Fridge: "",
@@ -63,10 +66,11 @@ const FruitorVegetable = () => {
           }}
         />
       </div>
-      <ConfirmButton link={linkChangePage} />
+      <ConfirmButton link={linkChangePage} className={buttonClass} />
     </main>
     <Wave backgroundColor={data.Wave} />
   </div>
   )};
+
 
 export default FruitorVegetable;

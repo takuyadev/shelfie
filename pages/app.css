@@ -38,16 +38,7 @@ h1 {
 }
 
 
-.subheading {
-  text-align: center;
-  font-weight: 700;
-  font-size: 1.8rem;
-  margin-bottom: 0px;
-}
 
-.titleText {
-  text-align: center;
-}
 
 /*Wrappers*/
 
@@ -102,6 +93,12 @@ body{
   margin: 60px;
 }
 
+.infoText {
+  max-width: 500px;
+  margin: 10px;
+  text-align: center;
+}
+
 @media screen and (max-width: 600px){
   h4{
     font-size: 24pt;
@@ -109,12 +106,6 @@ body{
   h1{
     margin: 5px;
     font-size: 24pt;
-  }
-  .subheading{
-    font-size: 1.2rem;
-  }
-  .titleText{
-    font-size: 1rem;
   }
   .navBar{
     margin: 0px;
@@ -125,4 +116,12 @@ body{
   .two-panel{
     height: 320px;
   }
+  .infoText{
+    max-width: 300px;
+  }
+  h6{
+    max-width: 330px;
+  }
+
+
 }
