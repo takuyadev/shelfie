@@ -18,5 +18,20 @@
     .logo{
       padding: 20px 0px 20px; 
     }
+    .subheading{
+      font-size: 1.4rem;
+      margin: 20px;
+    }
+    .titleText{
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+    .nameIcon{
+      margin-top: 0px;
+    }
+    .homepage{
+      justify-content: center;
+      height: 100vh;
+    }
   }
   

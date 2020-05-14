@@ -9,7 +9,7 @@ const Homepage = () => {
   const [buttonClass, setButtonClass] = useState("confirmButton_box");
 
   return(
-  <div className="app">
+  <div className="app homepage">
     <img src={NameIcon} className="nameIcon" />
     <p className="subheading">
       Extend shelf life. <br></br><br></br>Save the world and your wallet!

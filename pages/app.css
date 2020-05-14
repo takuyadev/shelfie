@@ -117,12 +117,6 @@ body{
     margin: 5px;
     font-size: 24pt;
   }
-  .subheading{
-    font-size: 1.2rem;
-  }
-  .titleText{
-    font-size: 1rem;
-  }
   .navBar{
     margin: 0px;
   }
@@ -138,4 +132,6 @@ body{
   h6{
     max-width: 330px;
   }
+
+
 }
