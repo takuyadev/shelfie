@@ -102,6 +102,12 @@ body{
   margin: 60px;
 }
 
+.infoText {
+  max-width: 500px;
+  margin: 10px;
+  text-align: center;
+}
+
 @media screen and (max-width: 600px){
   h4{
     font-size: 24pt;
@@ -124,5 +130,11 @@ body{
   }
   .two-panel{
     height: 320px;
+  }
+  .infoText{
+    max-width: 300px;
+  }
+  h6{
+    max-width: 330px;
   }
 }

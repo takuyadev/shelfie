@@ -5,22 +5,20 @@
 }
 
 .nameIcon {
-    margin-top: 60px;
+  margin-top: 25px;
 }
 
 .subheading {
-  margin-top: 50px;
+  margin: 25px;
+  line-height: 1rem;
 }
 
-.titleText {
-  margin-top: 55px;
-}
 
 
 
 @media screen and (max-width: 600px){
     .logo{
-      padding: 10px 0px 20px; 
+      padding: 20px 0px 20px; 
     }
   }
   

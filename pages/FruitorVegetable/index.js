@@ -5,7 +5,6 @@ import BackButton from "../../comps/BackButton";
 import RestartButton from "../../comps/RestartButton";
 import ConfirmButton from "../../comps/ConfirmButton";
 import { data, ChangeData, linkChange} from "../../data";
-import React, {useState} from 'react';
 import Link from "next/link";
 
 const VegetableIcon = require("../../img/vegetable.png");
@@ -16,7 +15,7 @@ console.log(data.Seasons);
 
 const FruitorVegetable = () => {
   const [linkChangePage, setlinkChangePage] = useState(
-    linkChange[data.FruitorVegetable]
+    linkChange[data.FruitorVegetable]);
   const [buttonClass, setButtonClass] = useState("grayButton_box");
   
   return (
@@ -27,7 +26,7 @@ const FruitorVegetable = () => {
     </div>
     <main>
       <h1>Fruit or Vegetable?</h1>
-      <p>Choose whether you want to view a selection of vegetables or fruit</p>
+      <p className="infoText">Choose whether you want to view a selection of vegetables or fruit</p>
       <div className="two-panel">
         <ColorPanel
           class="Vegi"
