@@ -19,7 +19,7 @@ const Homepage = () => {
       <br></br>your food waste!
     </p>
     <img className="logo" src={LogoIcon} />
-    <ConfirmButton text="About the App" link="../Tutorial" className={buttonClass}/>
+    <ConfirmButton text="About the App" link="../Tutorial" className="aboutButton_box"/>
     <ConfirmButton text="Get Started!" link="../Seasons" className={buttonClass}  />
   </div>
   )
