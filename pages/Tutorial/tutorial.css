@@ -1,0 +1,25 @@
+.tutorialText {
+    max-width: 500px;
+    background-color: rgb(240, 240, 240);
+    color: #322D2D;
+    padding: 25px;
+    border-radius: 28px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19pt;
+    text-align: left;
+    width: 80%;
+    min-width: 200px;
+    height: 100%;
+
+}
+
+.tutorialHeader {
+    margin-bottom: 35px;
+}
+
+#tutorialHeaderFirst {
+    margin-top: 20px;
+}
