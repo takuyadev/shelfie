@@ -24,6 +24,10 @@
   text-align: center;
 }
 
+.subheading{
+  line-height: 1.5rem;
+}
+
 @media screen and (max-width: 600px){
     .logo{
       padding: 20px 0px 20px; 

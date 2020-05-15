@@ -5,7 +5,7 @@
   font-family: "Lato", sans-serif;
   cursor: pointer;
   width: 284px;
-  height: 64px;
+  min-height: 64px;
   margin: 16px;
   font-style: normal;
   font-weight: normal;
@@ -28,7 +28,7 @@
   font-family: "Lato", sans-serif;
   cursor: pointer;
   width: 284px;
-  height: 64px;
+  min-height: 64px;
   margin: 16px;
   font-style: normal;
   font-weight: normal;
@@ -52,7 +52,7 @@
   font-family: "Lato", sans-serif;
   cursor: pointer;
   width: 284px;
-  height: 64px;
+  min-height: 64px;
   margin: 16px;
   font-style: normal;
   font-weight: normal;
