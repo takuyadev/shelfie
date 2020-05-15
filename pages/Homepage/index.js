@@ -15,7 +15,7 @@ const Homepage = () => {
       Extend shelf life! <br/> Save the world and your wallet!
     </p>
     <p className="titleText">
-      Find our how long your produce <br></br> will last, and how to reduce{" "}
+      Find out how long your produce <br></br> will last, and how to reduce{" "}
       <br></br>your food waste!
     </p>
     <img className="logo" src={LogoIcon} />
