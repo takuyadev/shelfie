@@ -13,8 +13,7 @@ console.log(data.Seasons);
 
 
 const FruitorVegetable = () => {
-  const [linkChangePage, setlinkChangePage] = useState(
-    "../Pick");
+  const [linkChangePage, setlinkChangePage] = useState("../Pick");
   const [buttonClass, setButtonClass] = useState("grayButton_box");
   
   return (
@@ -25,7 +24,7 @@ const FruitorVegetable = () => {
     </div>
     <main>
       <h1>Fruit or Vegetable?</h1>
-      <p className="infoText">Choose whether you want to view a selection of vegetables or fruit</p>
+      <p className="infoText">Choose whether you want to view a selection of vegetables or fruit.</p>
       <div className="two-panel">
         <ColorPanel
           class="Vegi"

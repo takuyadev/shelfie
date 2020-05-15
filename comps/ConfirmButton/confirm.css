@@ -64,7 +64,7 @@
   transition: 0.06s ease-in-out;
 }
 
-.grayButton_box:hover {
+.aboutButton_box:hover {
   background-color: #7dd0ff;
 }
 

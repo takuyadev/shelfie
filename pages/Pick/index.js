@@ -41,7 +41,7 @@ const Pick = () => {
       </div>
       <main>
         <h1>Pick your Fruit</h1>
-        <p class="infoText">Choose the fruit you want!</p>
+        <p class="infoText">Choose the fruit you want to check on!</p>
         <div className="two-panel">
           <ColorPanel
           
