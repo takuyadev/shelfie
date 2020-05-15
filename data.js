@@ -131,14 +131,14 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole onions will last about 2-3 months at room temperature ",
                   Preserve:
-                    "To extend the shelf life, whole onions should be stored in a cool dark place, such as a pantry. If this is unavailable, store them in the fridge. They should be kepts in a paper bag or mesh bag, never in plastic bags, to encourage air circulation.Furthermore, never store onions next to potatoes. Only cut them up before consumption. Onions can also be frozen for 6-8 months. Before placing in freezer bags, peel and chop them up into small chunks.",
+                    "To extend the shelf life, whole onions should be stored in a cool, dark place, such as a pantry. If this is unavailable, store them in the fridge. They should be kept in a paper bag or mesh bag, never in plastic bags, to encourage air circulation. Furthermore, never store onions next to potatoes, as it will create a chemical reaction that will speed up the decaying process. Only cut them up before consumption. Onions can also be frozen for 6-8 months. Before placing in freezer bags, peel and chop them up into small chunks.",
                   Days: "2-3 months",
                 },
                 {
                   bestCondition:
                     "When properly stored, whole potatoes will last about 2-3 months at room temperature.",
                   Preserve:
-                    "To extend the shelf life, store potatoes in a cool dark place. Store them in a paper or mesh bag, and keep them away from contact with potatoes. Ideally, potatoes should not be kept in the fridge, as it will affect the flavour, but if you have to, remove them from the fridge a couple days before use to recover some of the flavour. Only cut them up before consumption. You can also freeze potatoes from about 10-12 months. Before placing them in freezer bags, wash, peel, boil and mash them.",
+                    "To extend the shelf life, store potatoes in a cool, dark place, such as a pantry. Store them in a paper or mesh bag, and keep them away from contact with potatoes, as this will create a chemical reaction that will speed up the decaying process. Ideally, potatoes should not be kept in the fridge, as it will affect the flavour, but if you have to, remove them from the fridge a couple days before use to recover some of the flavour. Only cut them up before consumption. You can also freeze potatoes for about 10-12 months. Before placing them in freezer bags, wash, peel, boil and mash them.",
                   Days:
                     "2-3 months",
                 },
@@ -158,7 +158,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole, ripe pears will last about 3-4 days at room temperature. ",
                   Preserve:
-                    "To extend the shelf life of pears, they should be stored at room temperature until ripe, which is when they should be transferred to the fridge. Only cut them up before consumption. Pears can also be frozen for about 10-12 months. Before being placed in freezer bags, they should be washed, and cut up into small chunks. They should then be boiled for 1-2 minutes in a solution of 2 ¾ sugar and 4 cups of water. Drain the pears and let them cool. ",
+                    "To extend the shelf life of pears, they should be stored at room temperature until ripe, which is when they should be transferred to the fridge. Only cut them up before consumption. Pears can also be frozen for about 10-12 months. Before being placed in freezer bags, they should be washed, and cut up into small chunks. They should then be boiled for 1-2 minutes in a solution of 2 ¾ cups of sugar and 4 cups of water. Drain the pears and let them cool. ",
                   Days: "3-4 days",
                 },
               ],
@@ -173,7 +173,7 @@ export const SolutionText = {
                   bestCondition:
                     "It is not recommended to ever store broccoli at room temperature, as it will only last a few hours.",
                   Preserve:
-                    "To extend the shelf life of broccoli, store in a plastic bag in the fridge. Do not wash or cut it up until you are ready to use it. Broccoli can also be frozen for 12-18 months. Before placing in freezer bags, wash it, remove any leaves and stems, cut them up into small chunks, blanch them for 3 minutes then quickly chill it in ice cold water, then drain off the water.",
+                    "To extend the shelf life of broccoli, store in a plastic bag in the fridge. Do not wash or cut them up until you are ready to use it. Broccoli can also be frozen for 12-18 months. Before placing in freezer bags, wash it, remove any leaves and stems, cut them up into small chunks, blanch them for 3 minutes then quickly chill it in ice cold water, then drain off the water.",
                   Days: "3-4 hours",
                 },
                 {
@@ -191,7 +191,7 @@ export const SolutionText = {
                   bestCondition:
                     "It is not recommended to ever store bananas at room temperature once they are ripe, as they will only last 1-2 days.",
                   Preserve:
-                    "Bananas can also be frozen for about 2-3 months. Before placing them in freezer bags, peel and mash them in 1 tablespoon of lemons juice for each cup of mashed banana to prevent browning.",
+                    "To extend the shelf life of bananas, store them at room temperature, then transfer them to the fridge. Only cut them up before consumption. Bananas can also be frozen for about 2-3 months. Before placing them in freezer bags, peel and mash them in 1 tablespoon of lemons juice for each cup of mashed banana to prevent browning.",
                   Days: "1-2 days",
                 },
                 {
@@ -213,7 +213,7 @@ export const SolutionText = {
                   bestCondition:
                     "It is not recommended to store tomatoes at room temperature once ripe, as they will only last a few days. ",
                   Preserve:
-                    "To extend the shelf life, store them at room temperature until they are ripe, then transfer them to the fridge. This will ultimately maximize your tomatoes and give them a better flavour. Store them in the fridge in a plastic bag. Do not chop them up until ready to eat, and bring them back up to room temperature (about 30 minutes) before using them for a better flavour. Tomatoes can also be frozen for 2-3 months. Before placing them in freezer bags, wash and dry them. Cut up the tomatoes into small chunks if they are large tomatoes (such as beefsteak tomatoes). ",
+                    "To extend the shelf life, store them at room temperature until they are ripe, then transfer them to the fridge. This will ultimately maximize your tomatoes and give them a better flavour. Store them in the fridge in a plastic bag. Do not chop them up until ready to eat, and bring them back up to room temperature, about 30 minutes before using them, for a better flavour. Tomatoes can also be frozen for 2-3 months. Before placing them in freezer bags, wash and dry them. Cut up the tomatoes into small chunks if they are large tomatoes (such as beefsteak tomatoes). ",
                   Days: "1-2 days",
                 },
                 {
@@ -253,7 +253,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole pumpkins will last 30-90 days at room temperature.",
                   Preserve:
-                    "To extend the shelf life of pumpkins, only cut it up when you are planning to eat it. If you are storing it at room temperature, it should be kept in a cool dry place, such as a pantry. They should be carefully washed and completely dried before placing the pumpkin in the fridge or pantry. They can also be frozen, where they will last indefinitely, but should ideally be eaten within 8 months. Before placing in freezer bags, they should be cut up into small chunks.",
+                    "To extend the shelf life of pumpkins, only cut them up when you are planning to eat them. If you are storing it at room temperature, it should be kept in a cool, dry place, such as a pantry. They should be carefully washed and completely dried before placing the pumpkin in the fridge or pantry. They can also be frozen, where they will last indefinitely, but should ideally be eaten within 8 months. Before placing in freezer bags, they should be cut up into small chunks.",
                   Days: "30-90 days",
                 },
                 {
@@ -271,14 +271,14 @@ export const SolutionText = {
                   bestCondition:
                     "It is not recommended to ever store cranberries at room temperature, as they will only last a couple days.",
                   Preserve:
-                    "To extend the shelf life of grapes, discard any moldy grapes before putting them in the fridge. Furthermore, do not wash them until consumption. They can also be frozen, where they will last about 10-12 months. Before placing them in freezer bags, remove the stems, and wash and dry them.",
+                  "To extend the shelf life of cranberries, store them in the fridge in a plastic bag or covered container. They can also be frozen, where they will last about 10-12 months in freezer bags.",
                   Days: "2 days",
                 },
                 {
                   bestCondition:
                     "It is not recommended to ever store grapes at room temperature, as they will only last about a day.",
                   Preserve:
-                    "To extend the shelf life of cranberries, store them in the fridge in a plastic bag or covered container. They can also be frozen, where they will last about 10-12 months in freezer bags. ",
+                  "To extend the shelf life of grapes, discard any moldy grapes before putting them in the fridge. Furthermore, do not wash them until consumption. They can also be frozen, where they will last about 10-12 months. Before placing them in freezer bags, remove the stems, and wash and dry them.",
                   Days: "1 day",
                 },
               ],
@@ -298,14 +298,14 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole onions will last about 2-3 months in the fridge.",
                   Preserve:
-                    "To extend the shelf life, whole onions should be stored in a cool dark place, such as a pantry. If this is unavailable, store them in the fridge. They should be kepts in a paper bag or mesh bag, never in plastic bags, to encourage air circulation.Furthermore, never store onions next to potatoes. Only cut them up before consumption. Onions can also be frozen for 6-8 months. Before placing in freezer bags, peel and chop them up into small chunks.",
+                    "To extend the shelf life, whole onions should be stored in a cool, dark place, such as a pantry. If this is unavailable, store them in the fridge. They should be kept in a paper or mesh bag, never in plastic bags, to encourage air circulation. Furthermore, never store onions next to potatoes, as this will create a chemical reaction that will speed up the decaying process. Only cut them up before consumption. Onions can also be frozen for 6-8 months. Before placing in freezer bags, peel and chop them up into small chunks.",
                   Days: "2-3 months",
                 },
                 {
                   bestCondition:
                     "When properly stored, whole potatoes will last about 3-4 weeks in the fridge. Ideally though, they should not be stored in the fridge.",
                   Preserve:
-                    "To extend the shelf life, store potatoes in a cool dark place. Store them in a paper or mesh bag, and keep them away from contact with potatoes. Ideally, potatoes should not be kept in the fridge, as it will affect the flavour, but if you have to, remove them from the fridge a couple days before use to recover some of the flavour. Only cut them up before consumption. You can also freeze potatoes from about 10-12 months. Before placing them in freezer bags, wash, peel, boil and mash them. ",
+                    "To extend the shelf life, store potatoes in a cool, dark place. Store them in a paper or mesh bag, and keep them away from contact with potatoes, as this will create a chemical reaction that will speed up the decaying process. Ideally, potatoes should not be kept in the fridge, as it will affect the flavour, but if you have to, remove them from the fridge a couple days before use to recover some of the flavour. Only cut them up before consumption. You can also freeze potatoes from about 10-12 months. Before placing them in freezer bags, wash, peel, boil and mash them. ",
                   Days: "3-4 weeks",
                 },
               ],
@@ -323,7 +323,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole, ripe pears will last about 5-12 days in the fridge",
                   Preserve:
-                    "To extend the shelf life of pears, they should be stored at room temperature until ripe, which is when they should be transferred to the fridge. Only cut them up before consumption. Pears can also be frozen for about 10-12 months. Before being placed in freezer bags, they should be washed, and cut up into small chunks. They should then be boiled for 1-2 minutes in a solution of 2 ¾ sugar and 4 cups of water. Drain the pears and let them cool.",
+                    "To extend the shelf life of pears, they should be stored at room temperature until ripe, which is when they should be transferred to the fridge. Only cut them up before consumption. Pears can also be frozen for about 10-12 months. Before being placed in freezer bags, they should be washed, and cut up into small chunks. They should then be boiled for 1-2 minutes in a solution of 2 ¾ cups of sugar and 4 cups of water. Drain the pears and let them cool.",
                   Days: "5-12 days",
                 },
               ],
@@ -338,7 +338,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole broccoli will last about 7-14 days in the fridge.",
                   Preserve:
-                    "To extend the shelf life of broccoli, store in a plastic bag in the fridge. Do not wash or cut it up until you are ready to use it. Broccoli can also be frozen for 12-18 months. Before placing in freezer bags, wash it, remove any leaves and stems, cut them up into small chunks, blanch them for 3 minutes then quickly chill it in ice cold water, then drain off the water.",
+                    "To extend the shelf life of broccoli, store in a plastic bag in the fridge. Do not wash or cut it up until you are ready to use it. Broccoli can also be frozen for 12-18 months. Before placing in freezer bags, wash them, remove any leaves and stems, cut them up into small chunks, blanch them for 3 minutes then quickly chill it in ice cold water, then drain off the water.",
                   Days: "7-14 Days",
                 },
                 {
@@ -356,7 +356,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole bananas will last about 5-7 days in the fridge once ripe.",
                   Preserve:
-                    "To extend the shelf life of bananas, store them at room temperature at room temperature, then transfer them to the fridge. Only cut them up before consumption. Bananas can also be frozen for about 2-3 months. Before placing them in freezer bags, peel and mash them in 1 tablespoon of lemons juice for each cup of mashed banana to prevent browning. ",
+                    "To extend the shelf life of bananas, store them at room temperature, then transfer them to the fridge. Only cut them up before consumption. Bananas can also be frozen for about 2-3 months. Before placing them in freezer bags, peel and mash them in 1 tablespoon of lemons juice for each cup of mashed banana to prevent browning. ",
                   Days: "5-7 Days",
                 },
                 {
@@ -378,7 +378,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole tomatoes will last about 5-7 days in the fridge once ripe.",
                   Preserve:
-                    "To extend the shelf life, store them at room temperature until they are ripe, then transfer them to the fridge. This will ultimately maximize your tomatoes and give them a better flavour. Store them in the fridge in a plastic bag. Do not chop them up until ready to eat, and bring them back up to room temperature (about 30 minutes) before using them for a better flavour. Tomatoes can also be frozen for 2-3 months. Before placing them in freezer bags, wash and dry them. Cut up the tomatoes into small chunks if they are large tomatoes (such as beefsteak tomatoes). ",
+                    "To extend the shelf life, store them at room temperature until they are ripe, then transfer them to the fridge. This will ultimately maximize your tomatoes and give them a better flavour. Store them in the fridge in a plastic bag. Do not chop them up until ready to eat, and bring them back up to room temperature, about 30 minutes, before using them for a better flavour. Tomatoes can also be frozen for 2-3 months. Before placing them in freezer bags, wash and dry them. Cut up the tomatoes into small chunks if they are large tomatoes (such as beefsteak tomatoes). ",
                   Days: "5-7 days",
                 },
                 {
@@ -418,7 +418,7 @@ export const SolutionText = {
                   bestCondition:
                     "When properly stored, whole pumpkins will last 5 months in the fridge. Fresh cut pumpkin can last upwards of 3 days.",
                   Preserve:
-                    "To extend the shelf life of pumpkins, only cut it up when you are planning to eat it. If you are storing it at room temperature, it should be kept in a cool dry place, such as a pantry. They should be carefully washed and completely dried before placing the pumpkin in the fridge or pantry. They can also be frozen, where they will last indefinitely, but should ideally be eaten within 8 months. Before placing in freezer bags, they should be cut up into small chunks.",
+                    "To extend the shelf life of pumpkins, only cut them up when you are planning to eat them. If you are storing them at room temperature, them should be kept in a cool, dry place, such as a pantry. They should be carefully washed and completely dried before placing the pumpkin in the fridge or pantry. They can also be frozen, where they will last indefinitely, but should ideally be eaten within 8 months. Before placing in freezer bags, they should be cut up into small chunks.",
                   Days: "5 Months",
                 },
                 {
