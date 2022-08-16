@@ -1,4 +1,4 @@
-# Ghibli Movielist Project
+# Shelfie - BCIT Midterm Project
 
 This project is deployed at the [link here.](https://shelfie-takuyatoyokawa.vercel.app/)
 
