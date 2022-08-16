@@ -1,4 +1,4 @@
-# Shelfie - BCIT Midterm Project
+# Shelfie - BCIT 2nd Term, Design 2 Midterm Project
 
 This project is deployed at the [link here.](https://shelfie-takuyatoyokawa.vercel.app/)
 
