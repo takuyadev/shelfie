@@ -1,12 +1,14 @@
 # Ghibli Movielist Project
 
-This project is deployed at the [link here.](https://ghibli-movielist.netlify.app/)
+This project is deployed at the [link here.](https://shelfie-takuyatoyokawa.vercel.app/)
 
 ### `Team`
 
-Takuya Toyokawa - Front-end Developer - UX/UI Developer
-Simon Lee - UX/UI Developer
-Emma Parsons - UX/UI Developer
+*Takuya Toyokawa* - Front-end Developer - UX/UI Developer
+
+*Simon Le* - UX/UI Developer
+
+*Emma Parsons* - UX/UI Developer
 
 ### `The Challenge/Project`
 
