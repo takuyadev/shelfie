@@ -12,7 +12,7 @@ Emma Parsons - UX/UI Developer
 
 This is a BCIT Midterm team project where we were tasked to ideate and create an application that would educate users ont the environmental impact on actions we take everyday, and how we can work to mitigate the issues.
 
-### `Summary'
+### `Summary`
 
 This application is called Shelfie, and it aims to educate users on the most accurate expiration date by examining the environment and shows the user the current condition and best way to preserve the certain food that was inputed.
 
