@@ -4,11 +4,11 @@ This project is deployed at the [link here.](https://shelfie-takuyatoyokawa.verc
 
 ### `Team`
 
-**Takuya Toyokawa** - Front-end Developer - UX/UI Developer
+[**Takuya Toyokawa**](https://www.linkedin.com/in/takuya-toyokawa/) - Front-end Developer - UX/UI Developer
 
-**Simon Le** - UX/UI Developer
+[**Simon Le**](https://www.linkedin.com/in/simon-le-532820183/) - UX/UI Developer
 
-**Emma Parsons** - UX/UI Developer
+[**Emma Parsons**](https://www.linkedin.com/in/emma-parsons-b6518ba9/) - UX/UI Developer
 
 ### `The Challenge/Project`
 
